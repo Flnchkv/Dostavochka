@@ -10,8 +10,6 @@ body {
 
 h1 {
     position: absolute;
-    width: 224px;
-    height: 39px;
     left: 43px;
     top: 23px;
 
@@ -68,17 +66,18 @@ h2 {
 }
 
 #r1{
-    left: 39px;
+    margin-left: auto;
+    margin-right: auto;
     top: 172px;
 }
 
 #r2{
-    left: 39px;
     top: 234px;
 }
 
 #r3{
-    left: 39px;
+    margin-left: auto;
+    margin-right: auto;
     top: 296px;
 }
 
@@ -351,4 +350,24 @@ div{
     
     border: 1px solid #FFFFFF;
      
+}
+
+#menu1{
+    left: 50px;
+    top: 561px;
+}
+
+#menu2{
+    left: 120px;
+    top: 561px;
+}
+
+#menu3{
+    left: 190px;
+    top: 560px;
+}
+
+#menu4{
+    left: 260px;
+    top: 558px;
 }
