@@ -4,34 +4,37 @@
     <meta charset="utf-8">
     <title>Доставочка</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <h1> Доставочка </h1>
-      <div class="basket"> <img src="css/shopping-basket.png" width="44px" height="44px"> </div>
-    </div>
+      <header>
+        <div class="hat">
+          <h1> Доставочка </h1>
+          <div class="basket"> <img src="css/shopping-basket.png"> </div>
+        </div>
+     </header>
+    
+    <main>
+      <div class="fields"> 
+        <h2>Вход</h2>   
+        <input class="rectangle"></input>
+        <input class="rectangle"></input>
+      </div>
 
-    <h2 id="auto">Вход</h2>
+      <div class="user" id="p2"> <img src="css/user.png" width="22px" height="22px"> </div>
+      <div class="lock" id="p3"> <img src="css/padlock.png" width="24px" height="24px"> </div>
+      <p id="n2">Логин</p>
+      <p id="n3">Пароль</p>
 
-    <ul>    
-      <li><div class="rectangle" id="r2"></div></li>
-      <li><div class="rectangle" id="r3"></div></li>
-    </ul>
+      <div class="button" id="b_auto"></div>
+      <p class="in" id="in_auto"><a href="profile.html">Войти</a></p>
 
-    <div class="user" id="p2"> <img src="css/user.png" width="22px" height="22px"> </div>
-    <div class="lock" id="p3"> <img src="css/padlock.png" width="24px" height="24px"> </div>
-    <p id="n2">Логин</p>
-    <p id="n3">Пароль</p>
+      <p class="foot" id="qu">Ещё нет аккаунта?</p>
+      <p class="foot" id="reg"><a href="reg.html">Зарегистрироваться</a></p>
+    </main>
 
-    <div class="button" id="b_auto"></div>
-    <p class="in" id="in_auto"><a href="profile.html">Войти</a></p>
-
-    <p class="foot" id="qu">Ещё нет аккаунта?</p>
-    <p class="foot" id="reg"><a href="reg.html">Зарегистрироваться</a></p>
+    <footer></footer>
 
   </body>
 </html>

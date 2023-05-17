@@ -1,31 +1,51 @@
 body {
-    position: absolute;
-    width: 360px;
-    height: 640px;
-    left: 0px;
-    top: 0px;
-    
+    display: flex;
+    flex-direction: column;
+    margin: auto;    
     background: #141F45;
 }
 
-h1 {
+header{
     position: absolute;
-    left: 43px;
-    top: 23px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+}
 
+.hat{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-
     color: #FFFFFF;
 }
 
 .basket{
+    margin-left: 7px;
+}
+
+.basket img{
+    width: 44px;
+    height: 44px;
+}
+
+main{
     position: absolute;
-    left: 269px;
-    top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
 }
 
 a{
@@ -33,26 +53,21 @@ a{
 }
 
 h2 {
-    position: absolute;
-    height: 29px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
-
     color: #FFFFFF;
 }
 
-#auto{
-    left: 42px;
-    top: 173px;
-}
-
-#reg1{
-    left: 47px;
-    top: 105px;
+.fields{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
 }
 
 .rectangle{
@@ -65,25 +80,16 @@ h2 {
     border-radius: 15px;
 }
 
-#r1{
-    margin-left: auto;
-    margin-right: auto;
-    top: 172px;
+
+
+#auto{
+    left: 42px;
+    top: 173px;
 }
 
-#r2{
-    top: 234px;
-}
-
-#r3{
-    margin-left: auto;
-    margin-right: auto;
-    top: 296px;
-}
-
-#r4{
-    left: 39px;
-    top: 358px;
+#reg1{
+    left: 47px;
+    top: 105px;
 }
 
 p{
@@ -338,11 +344,7 @@ p{
     top: 287px;
 }
 
-div{
-    position: absolute;
-}
-
-.menu{
+.menu8{
     position: absolute;
     width: 361px;
     height: 0px;
@@ -352,22 +354,21 @@ div{
      
 }
 
-#menu1{
-    left: 50px;
-    top: 561px;
+nav ul {
+	margin: 0;
+	padding: 0;
 }
 
-#menu2{
-    left: 120px;
-    top: 561px;
+.menu li {
+	padding: 30px;
+	margin: 0;
 }
 
-#menu3{
-    left: 190px;
-    top: 560px;
+.menu{
+    position: fixed;
+    width: 100%; /* Full width */
+    margin-top: 455px;
+    display: flex;
+    justify-content: center;
 }
 
-#menu4{
-    left: 260px;
-    top: 558px;
-}
