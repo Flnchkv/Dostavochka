@@ -44,6 +44,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin: auto;
     height: auto;
 }
 
@@ -58,7 +59,9 @@ h2 {
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    margin: 0;
+    text-align: left;
+    margin: auto;
+    margin-right: 25px;
 }
 
 .fields{
@@ -98,6 +101,7 @@ p{
     line-height: 20px;
     margin-bottom: 0;
     margin-top: 8px;
+    padding: auto;
     
     color: #FFFFFF;
 }
@@ -130,32 +134,104 @@ button{
     margin-top: 55px;
 }
 
-
-.menu8{
-    position: absolute;
-    width: 361px;
-    height: 0px;
-    top: 537px;
-    
-    border: 1px solid #FFFFFF;
-     
+.header1{
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    margin-top: 20px;
 }
 
-nav ul {
-	margin: 0;
-	padding: 0;
+
+.round img{
+    width: 67px;
+    height: 67px;
+    margin: auto;
 }
 
-.menu li {
-	padding: 30px;
-	margin: 0;
+.round{
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-left: 15px;
+
+    background: #A4A4A4;
+}
+
+.edit{
+    font-weight: lighter;
+    margin: auto;
+    text-align: left;
+    margin-left: 40%;
+    margin-top: -20px ;
+}
+
+.fields1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 40px;
+    height: auto;
+    padding: 20px;
+    }
+
+.fields1 p{
+    text-align: left;
+}
+
+.line{
+    background-color: #141F45;
+    margin-top: 6px;
+    border-radius: 0.1px;
+}
+
+.fi{
+    margin-right: 35px;
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.ank{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+.tic{
+    width: 25px;
+    height: 25px;
+
+    background-color: #141F45;
+    border: 1px solid #C14359;
+    border-radius: 5px;
+    margin-top: 17px;
+}
+
+.ank p{
+   padding-right: 30px;
+   text-align: left;
+}
+
+footer{
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+    bottom: 0;
 }
 
 .menu{
-    position: fixed;
-    width: 100%; /* Full width */
-    margin-top: 455px;
-    display: flex;
-    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
 }
 
