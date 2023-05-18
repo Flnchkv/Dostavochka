@@ -10,30 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1> Доставочка </h1>
-    <div class="basket"> <img src="css/shopping-basket.png" width="44px" height="44px"> </div>
-    <h2 id="reg1">Регистрация</h2>
+    <header>
+      <div class="hat">
+        <h1> Доставочка </h1>
+        <div class="basket"> <img src="css/shopping-basket.png"> </div>
+      </div>
+    </header>
     
-    <div class="rectangle" id="r1"></div>
-    <div class="rectangle" id="r2"></div>
-    <div class="rectangle" id="r3"></div>
-    <div class="rectangle" id="r4"></div>
+    <main>
+      <div class="fields"> 
+        <h2>Регистрация</h2>
+        <input class="rectangle" required placeholder="Логин"></input>
+        <input class="rectangle" required placeholder="Пароль"></input>
+        <input class="rectangle" required placeholder="Почта ДВФУ"></input>  
+        <input class="rectangle" required placeholder="Корпус"></input>
+      </div>
 
-    <div class="user" id="p1"> <img src="css/user.png" width="22px" height="22px"> </div>
-    <div class="lock" id="p2"> <img src="css/padlock.png" width="24px" height="24px"> </div>
-    <div class="mail" id="p3"> <img src="css/email.png" width="25px" height="25px"> </div>
-    <div class="home" id="p4"> <img src="css/house.png" width="26px" height="26px"> </div>
-    <p id="n1">Логин</p>
-    <p id="n2">Пароль</p>
-    <p id="n3">Почта ДВФУ</p>
-    <p id="n4">Корпус</p>
+    <button class="reg">Зарегистрироваться</button>
 
+    <div class="foot">
+      <p>Уже есть аккаунт?</p>
+      <p><a href="auto.html">Войти</a></p>
+    </div>
 
-    <div class="button" id="b_reg"></div>
-    <p class="in" id="in_reg"><a href="profile.html">Зарегистрироваться</a></p>
-
-    <p class="foot" id="qu">Уже есть аккаунт?</p>
-    <p class="foot" id="reg"><a href="auto.html">Войти</a></p>
-
+    </main>
   </body>
 </html>
