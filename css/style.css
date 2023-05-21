@@ -220,18 +220,27 @@ button{
 }
 
 footer{
+    background-color: #141F45;
     position: fixed;
     overflow: hidden;
-    display: flex;
-    align-items: center;
     margin: auto;
-
     bottom: 0;
+    width: 100%;
 }
 
 .menu{
-    align-items: center;
+    display: flex;
     margin: auto;
-    padding: auto;
+    justify-content: center;
+}
+.menu img{
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.border{
+    background-color: #C14359;
+    height: 1px;
+    width: 100%;
 }
 
