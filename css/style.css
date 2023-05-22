@@ -50,6 +50,7 @@ main{
 
 a{
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 h2 {
@@ -109,7 +110,7 @@ button{
     border-radius: 15px;
     justify-content: center;
     position: relative;
-    padding: 0 12px;
+    padding: 0 15px;
     padding-top:8px;
     display: flex;
     width: auto;
@@ -120,7 +121,7 @@ button{
     font-family: 'Montserrat Alternates';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 20px;
     
     color: #FFFFFF;
@@ -261,3 +262,72 @@ footer{
     
 }
 
+.orders{
+    width: 90%;
+    height: 142px;
+    margin: auto;
+    margin-top: 20px;
+    background: #4D2B4C;
+    border-radius: 6px;
+}
+
+.orders p{
+    font-family: 'Montserrat';
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.con p{
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.couriers{
+    width: 90%;
+    height: 184px;
+    margin: auto;
+    margin-top: 20px;
+    background: #4D2B4C;
+    border:  1px solid #FFFFFF;
+    border-radius: 6px;
+    }
+
+   .couriers p{ 
+    font-family: 'Montserrat';
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+   }
+
+   .content{
+    margin: auto;
+    margin-top: 10px;
+   }
+   .content p{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    font-size: 20px;
+   }
+   .points{
+    font-family: 'Montserrat Alternates';
+    font-weight: 700;
+    font-size: 40px;
+    margin: auto;
+   }
+   
+   .bot{
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+   }
+
+   .time{
+    margin-right: 20px ;
+   }
