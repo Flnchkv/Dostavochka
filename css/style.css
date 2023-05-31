@@ -199,12 +199,26 @@ button{
     font-size: 16px;
     line-height: 20px;
     padding-left: 5px;
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+
+    background-color: #141F45;
+    border: 1px solid #C14359;
+    border-radius: 15px;
     
     color: #FFFFFF;
 }
 
 .fi{
     margin-right: 35px;
+}
+
+.fi p{
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 .inp{
     display: flex;
