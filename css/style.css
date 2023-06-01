@@ -168,9 +168,12 @@ button{
     background: #A4A4A4;
 }
 
+.edit p{
+    color: #FFFFFF;
+}
+
 .edit{
-    font-weight: lighter;
-    margin: auto;
+    
     margin-left: 15px;
     margin-top: 15px;
     text-align: left;
@@ -211,6 +214,7 @@ button{
     
     color: #FFFFFF;
 }
+
 
 .fi{
     margin-right: 15px;
