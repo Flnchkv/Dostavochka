@@ -11,8 +11,17 @@
     <header class="header1">
       <div class="header2">
         <h2>Профиль</h2>
-        <input type="file" class="edit"></input>
-      </div>
+          <div class="load">
+            <label for="myfile" class="label">Загрузить фото</label>
+            <input type="file" class="my" id="myfile" name="myfile" multiple>
+            <script>
+              $('.my').change(function() {
+              if ($(this).val() != '') $(this).prev().text('Выбрано файлов: ' + $(this)[0].files.length);
+              else $(this).prev().text('Загрузить фото');
+              });
+            </script>
+          </div>
+        </div>
       <div class="round"><img src="css/camera.png"></div>
     </header>
     <main>
