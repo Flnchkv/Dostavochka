@@ -9,25 +9,37 @@
   </head>
   <body>
     <header class="header1">
-        <h2>Сделать заказ</h2>
+        <h2>Открыть приём заказов</h2>
     </header>
     <main>
+        <div class="ti">
+            <p>Время доставки с:</p>
+            <input type="time" class="line"></input>
+            <p>-</p>
+            <input type="time" class="line"></input>
+        </div>
+
         <div class="fields1">
-            <div class="fi"> 
-              <p>Корпус:</p>
-              <p>Место:</p>
-              <p>Сколько позиций в заказе:</p>
+            <div class="fi">
+              <p>Приём заказов до:</p>
+              <p>Места:</p>
             </div>
   
             <div class="inp">
-              <input class="line"></input>
-              <input class="line"></input>
-              <input class="line"></input>
+              <input type="time" class="line"></input>
+              <select required id="building" name="building" class="line">
+                <option selected="selected" disabled>Выберите место</option>
+                <option value="vit">Вкусно и точка</option>
+                <option value="kfc">KFC</option>
+                <option value="uma">Umami</option>
+                <option value="tokio">Токио</option>
+                <option value="bk">Burger King</option>
             </div>
         </div>
-
-        <input class="comm" required placeholder="Комментарий"></input>
-        <button>ОК</button>
+        
+      <input class="comm" required placeholder="Комментарий"></input>
+        
+  
     </main>
 
   <footer>

@@ -182,7 +182,6 @@ button{
 .fields1{
     display: flex;
     margin: auto;
-    align-items: center;
     margin-top: 40px;
     height: auto;
     padding: 20px;
@@ -213,6 +212,8 @@ button{
     border-radius: 11px;
     
     color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -221,7 +222,6 @@ button{
 }
 
 .fi p{
-    margin-top: 13px;
     margin-bottom: 13px;
 }
 .inp{
@@ -285,6 +285,8 @@ footer{
     width: auto;
     height: 65px;
     margin: auto;
+    width: 35px;
+    height: 35px;
     
 }
 
@@ -422,4 +424,36 @@ footer{
 
 .load{
     margin-top: 20px;
+}
+.ti{
+    margin: auto;
+    margin-bottom: -59px;
+    margin-top: 40px;
+    display: flex;
+}
+.ti input{
+    width: 80px;
+}
+
+.com{
+    background-color: #141F45;
+    margin-top: 6px;
+    border-radius: 0.1px;
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+
+    background-color: #141F45;
+    border: 1px solid #C14359;
+    border-radius: 11px;
+    
+    color: #FFFFFF;
 }
