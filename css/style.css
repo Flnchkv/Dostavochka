@@ -90,7 +90,7 @@ h2 {
     border-radius: 15px;
 }
 
-p{
+p, a{
     height: 20px;
     text-align: center;
     font-family: 'Montserrat Alternates';
@@ -222,12 +222,11 @@ button{
 }
 
 .fi p{
-    margin-bottom: 13px;
+    margin-bottom: 17px;
 }
 .inp{
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 
 .ank{
@@ -321,7 +320,6 @@ footer{
     margin: auto;
     margin-top: 20px;
     background: #4D2B4C;
-    border:  1px solid #FFFFFF;
     border-radius: 6px;
     }
 
@@ -369,7 +367,7 @@ footer{
     padding-top:12px;
     display: flex;
     width: auto;
-    height: 42px;
+    height: 35px;
     margin: auto;
     margin-top: 50px;
     
@@ -385,6 +383,8 @@ footer{
 .comm{
     background-color: #141F45;
     border:  1px solid #FFFFFF;
+    border-radius: 6px;
+
     width: 80%;
     height: 150px;
     margin: auto;
@@ -395,8 +395,8 @@ footer{
     font-size: 16px;
     line-height: 20px;
     padding-left: 15px;
-    margin-top: 30px;
-}
+
+    }
 
 .my {
     width: 0.1px;
