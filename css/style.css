@@ -90,7 +90,7 @@ h2 {
     border-radius: 15px;
 }
 
-p, a{
+button p, p, a{
     height: 20px;
     text-align: center;
     font-family: 'Montserrat Alternates';
@@ -101,28 +101,6 @@ p, a{
     margin-bottom: 0;
     margin-top: 8px;
     padding: auto;
-    
-    color: #FFFFFF;
-}
-
-button{    
-    background: #C14359;
-    border-radius: 15px;
-    justify-content: center;
-    position: relative;
-    padding: 0 15px;
-    padding-top:8px;
-    display: flex;
-    width: auto;
-    height: 42px;
-    margin: auto;
-    margin-top: 50px;
-    
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 20px;
     
     color: #FFFFFF;
 }
@@ -253,8 +231,8 @@ button{
 
 footer{
     background-color: #141F45;
-    position: fixed;
     overflow: hidden;
+    position: fixed;
     margin: auto;
     bottom: 0;
     width: 100%;
@@ -262,8 +240,9 @@ footer{
 
 .menu{
     display: flex;
-    margin: auto;
+    margin: auto; 
 }
+
 .menu img{
     padding-top: 15px;
     padding-left: 15px;
@@ -284,14 +263,14 @@ footer{
     width: auto;
     height: 65px;
     margin: auto;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     
 }
 
 .orders{
     width: 90%;
-    height: 142px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
     background: #4D2B4C;
@@ -333,6 +312,7 @@ footer{
    .content{
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 15px;
    }
    .content p{
     margin-bottom: 5px;
@@ -358,18 +338,18 @@ footer{
     margin-right: 20px ;
    }
 
-   .button{    
+   button, .button{    
     background: #C14359;
     border-radius: 15px;
     justify-content: center;
     position: relative;
     padding: 0 15px;
-    padding-top:12px;
+    padding-top:4px;
     display: flex;
     width: auto;
-    height: 35px;
+    height: 33px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     
     font-family: 'Montserrat Alternates';
     font-style: normal;
@@ -378,6 +358,10 @@ footer{
     line-height: 20px;
     
     color: #FFFFFF;
+}
+
+.button{
+    padding-top: 10px;
 }
 
 .comm{
@@ -456,4 +440,14 @@ footer{
     border-radius: 11px;
     
     color: #FFFFFF;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 10%;
 }
