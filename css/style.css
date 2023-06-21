@@ -452,3 +452,15 @@ h3{
     margin-left: 10%;
     margin-bottom: 5px;
 }
+
+.stat{
+    justify-content: right;
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-right: 10px;
+}
+.stat button{
+    margin:0;
+    margin-left: 10px;
+}
