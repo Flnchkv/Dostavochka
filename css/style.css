@@ -86,7 +86,7 @@ h2 {
     margin-top: 20px;
 
     background-color: #141F45;
-    border: 1px solid #C14359;
+    border: 1px solid #34B586;
     border-radius: 15px;
 }
 
@@ -229,7 +229,7 @@ button p, p, a{
    text-align: left;
 }
 
-footer{
+.footer{
     background-color: #141F45;
     overflow: hidden;
     position: fixed;
@@ -244,6 +244,9 @@ footer{
 }
 
 .menu img{
+    margin: auto;
+    width: 30px;
+    height: 30px; 
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -254,6 +257,8 @@ footer{
     width: 100%;
 }
 .nav{
+    display: flex;
+    flex-direction: column;
     background-color: #141F45;
     border: none;
     position: relative;
@@ -261,20 +266,18 @@ footer{
     padding-bottom: 15px;
     display: flex;
     width: auto;
-    height: 65px;
     margin: auto;
-    width: 40px;
-    height: 40px;
-    
+    height: 55px;
+    width: 25%;    
 }
 
-.orders{
-    width: 90%;
-    height: auto;
-    margin: auto;
-    margin-top: 20px;
-    background: #4D2B4C;
-    border-radius: 6px;
+.nav:hover{
+background-color: #e89d11;
+}
+
+.nav p{
+    font-size: 9px;
+    margin: 0px;
 }
 
 .orders p{
@@ -293,7 +296,7 @@ footer{
     margin-top: 15px;
 }
 
-.couriers{
+    .couriers, .orders{
     width: 90%;
     height: 184px;
     margin: auto;
@@ -301,6 +304,11 @@ footer{
     background: #4D2B4C;
     border-radius: 6px;
     }
+
+    .couriers:hover{
+        background: #e89d11;
+    }
+
 
    .couriers p{ 
     font-family: 'Montserrat';
@@ -350,6 +358,7 @@ footer{
     height: 33px;
     margin: auto;
     margin-top: 30px;
+    border: 0;
     
     font-family: 'Montserrat Alternates';
     font-style: normal;
@@ -359,6 +368,10 @@ footer{
     
     color: #FFFFFF;
 }
+button:hover, .button:hover {
+    background: #e89d11;
+}
+
 
 .button{
     padding-top: 10px;
@@ -459,8 +472,17 @@ h3{
     display: flex;
     margin: auto;
     margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 .stat button{
     margin:0;
     margin-left: 10px;
+    width: 60px;
+}
+
+#active{
+    pointer-events: none;
+    background:#4D2B4C;
 }
