@@ -86,7 +86,7 @@ h2 {
     margin-top: 20px;
 
     background-color: #141F45;
-    border: 1px solid #34B586;
+    border: 1px solid #C14359;
     border-radius: 15px;
 }
 
@@ -272,11 +272,12 @@ button p, p, a{
 }
 
 .nav:hover{
-background-color: #e89d11;
+    transition: 1s;
+    background-color: #e89d11;
 }
 
 .nav p{
-    font-size: 9px;
+    font-size: 13px;
     margin: 0px;
 }
 
@@ -306,6 +307,7 @@ background-color: #e89d11;
     }
 
     .couriers:hover{
+        transition: 0.5s;
         background: #e89d11;
     }
 
@@ -392,6 +394,11 @@ button:hover, .button:hover {
     font-size: 16px;
     line-height: 20px;
     padding-left: 15px;
+
+
+    }
+    input:focus{
+        border:  1px solid #e89d11;
 
     }
 
