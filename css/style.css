@@ -394,11 +394,11 @@ button:hover, .button:hover {
     font-size: 16px;
     line-height: 20px;
     padding-left: 15px;
-
-
     }
-    input:focus{
+
+    input:focus-visible{
         border:  1px solid #e89d11;
+        outline: #e89d11;
 
     }
 
@@ -492,4 +492,15 @@ h3{
 #active{
     pointer-events: none;
     background:#4D2B4C;
+}
+
+option:checked {
+    background-color: #e89d11;
+  }
+a:hover{
+    color: #e89d11;
+}
+
+#yes{
+    background-color: #2d8932;
 }
