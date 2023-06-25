@@ -273,7 +273,7 @@ button p, p, a{
 
 .nav:hover{
     transition: 1s;
-    background-color: #e89d11;
+    background-color: #C14359;
 }
 
 .nav p{
@@ -308,9 +308,9 @@ button p, p, a{
 
     .couriers:hover{
         transition: 0.5s;
-        background: #e89d11;
+        background: #C14359;
+        color: #4D2B4C;
     }
-
 
    .couriers p{ 
     font-family: 'Montserrat';
@@ -371,7 +371,8 @@ button p, p, a{
     color: #FFFFFF;
 }
 button:hover, .button:hover {
-    background: #e89d11;
+    background: #FFFFFF;
+    color: #C14359;
 }
 
 
@@ -397,8 +398,8 @@ button:hover, .button:hover {
     }
 
     input:focus-visible{
-        border:  1px solid #e89d11;
-        outline: #e89d11;
+        border:  1px solid #FFFFFF;
+        outline: #FFFFFF;
 
     }
 
@@ -495,12 +496,15 @@ h3{
 }
 
 option:checked {
-    background-color: #e89d11;
+    background-color: #C14359;
   }
 a:hover{
-    color: #e89d11;
+    color: #C14359;
 }
 
 #yes{
-    background-color: #2d8932;
+    background: #2d8932;
+}
+#yes:hover{
+    background: #FFFFFF;
 }
